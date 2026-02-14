@@ -15,5 +15,22 @@ let booleanvalue=Boolean(islogedin)
 let string=33
 let numstring = String(string)
 
-console.log(typeof numstring);
-console.log(numstring);
+// console.log(typeof numstring);
+// console.log(numstring);  
+
+//**********************OPERATIONS**********************
+
+// console.log("1"+2+4)
+// console.log(1+"2"+4)
+// console.log(1+2+"4")
+
+// console.log(+true)  //output is 1
+// console.log(+"")   //output is 0
+
+console.log("2"==1);
+console.log("2">1);
+console.log(2<"1");
+
+console.log(null==0);
+console.log(null>0);
+console.log(null<=0);
